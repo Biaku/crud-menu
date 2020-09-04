@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block container %}
+    <div class="row">
+        <div class="col-md-12 mt-4">
+            <div class="card">
+                <div class="card-header">
+                    CRUD en Django - un informatico
+                </div>
+                <div class="card-body">
+                    <h1>Menu <small>VBF</small></h1>
+
+
+                    <a href="" class="btn btn-sm btn-primary">Crear</a>
+                    <table class="table table-bordered mt-4">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Descripcion</th>
+                        </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- VISTAS BASADAS EN CLASE -->
+    {% comment %}
+    <div class="row">
+        <div class="col-md-12 mt-4">
+            <div class="card">
+                <div class="card-body">
+                    <h1>Menu <small>VBC</small></h1>
+                    <a href="" class="btn btn-sm btn-primary">Crear</a>
+                    <table class="table table-bordered mt-4">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Descripcion</th>
+                        </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endcomment %}
+
+{% endblock %}
